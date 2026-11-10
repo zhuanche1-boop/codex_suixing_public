@@ -47,3 +47,9 @@ GitHub 自动生成的 Source code 压缩包只包含这个公开仓库中的说
 ## 版本记录
 
 [所有历史版本](https://github.com/zhuanche1-boop/codex_suixing_public/blob/main/VERSIONS.md) · [每版新增与修复](https://github.com/zhuanche1-boop/codex_suixing_public/blob/main/CHANGELOG.md)
+
+## 历史归档
+
+[版本清单](VERSIONS.md) · [逐版变化](CHANGELOG.md)
+
+每个版本对应同名 v 标签。2026-11-10 补录的提交用于还原留存快照，提交日期不冒充原始开发日期。 这里只保存公开说明，安装包在 Releases。
