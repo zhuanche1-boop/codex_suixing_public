@@ -1,4 +1,4 @@
-# Codex 随行 1.4.5 历史版使用说明
+# Codex 随行 1.4.5-details 历史版使用说明
 
 本次归档使用原 Android 1.4.5 安装包，电脑业务模块来自本版可验证历史源码。文件名统一为 Codex-Suixing；内部包名与签名保持不变。
 
@@ -60,7 +60,7 @@ Tailscale 的登录账号与 ChatGPT 账号是两回事；手机的 Tailscale �
 
 ## 3. 初始化电脑
 
-1. 将 Windows ZIP 完整解压到固定目录，例如 D:\Codex-Suixing-1.4.5。保持 runtime、vendor（若有）和所有配套文件完整；无需另外安装 Node.js。
+1. 将 Windows ZIP 完整解压到固定目录，例如 D:\Codex-Suixing-1.4.5-details。保持 runtime、vendor（若有）和所有配套文件完整；无需另外安装 Node.js。
 2. 让这台电脑的桌面 Codex 在一个已有对话中读取本机真实会话 ID 和电脑 Tailscale IPv4，在解压目录运行以下命令。两处中文值必须替换，不要猜测或使用其他电脑的值。
 
 ```powershell
