@@ -1,6 +1,6 @@
-# Codex 随行 1.4.4 历史版使用说明
+# Codex 随行 1.4.5 历史版使用说明
 
-本次归档使用原 Android 1.4.4 安装包，电脑业务模块来自本版可验证历史源码。文件名统一为 Codex-Suixing；内部包名与签名保持不变。
+本次归档使用原 Android 1.4.5 安装包，电脑业务模块来自本版可验证历史源码。文件名统一为 Codex-Suixing；内部包名与签名保持不变。
 
 这是历史版本，功能以对应 Release 的“本版变化”和实际界面为准。未重新对所有当前手机与桌面版本完成真机验收，日常使用优先选择最新版本。不要将新版本全部功能视为旧版本已有能力。
 
@@ -60,7 +60,7 @@ Tailscale 的登录账号与 ChatGPT 账号是两回事；手机的 Tailscale �
 
 ## 3. 初始化电脑
 
-1. 将 Windows ZIP 完整解压到固定目录，例如 D:\Codex-Suixing-1.4.4。保持 runtime、vendor（若有）和所有配套文件完整；无需另外安装 Node.js。
+1. 将 Windows ZIP 完整解压到固定目录，例如 D:\Codex-Suixing-1.4.5。保持 runtime、vendor（若有）和所有配套文件完整；无需另外安装 Node.js。
 2. 让这台电脑的桌面 Codex 在一个已有对话中读取本机真实会话 ID 和电脑 Tailscale IPv4，在解压目录运行以下命令。两处中文值必须替换，不要猜测或使用其他电脑的值。
 
 ```powershell
@@ -76,7 +76,7 @@ Tailscale 的登录账号与 ChatGPT 账号是两回事；手机的 Tailscale �
 1. 打开 APK 安装到手机，按系统提示允许本次安装来源。已有新版 App 时不要为了降级而卸载，卸载可能丢失配对和草稿；建议历史版本只在独立测试设备上使用。
 2. 两端 Tailscale 在线，电脑连接程序已启动。
 3. 在 App 设置中导入本机的完整 pairing.json，或粘贴其完整内容；核对电脑名称、地址后连接。
-4. 此版尚无扫码配对，请导入或粘贴完整 pairing.json。 如果使用扫码功能，在电脑双击 Show-Pairing.cmd 打开二维码；浏览器未打开时可运行 Show-Pairing.cmd --no-open，再打开 data/pairing-qr.html。没有扫码功能的旧版不提供这个入口。
+4. 支持扫码配对，也可导入 pairing.json。 如果使用扫码功能，在电脑双击 Show-Pairing.cmd 打开二维码；浏览器未打开时可运行 Show-Pairing.cmd --no-open，再打开 data/pairing-qr.html。没有扫码功能的旧版不提供这个入口。
 5. pairing.json、data 和二维码包含私人遥控凭证，不要上传仓库、群聊或在线二维码网站。
 
 ## 5. 使用与连接检查
